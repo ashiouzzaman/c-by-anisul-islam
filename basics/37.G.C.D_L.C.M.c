@@ -15,4 +15,10 @@ int main(){
     }
 
     printf("G.C.D of %d & %d is = %d\n", num1, num2, gcd);
+
+
+    // LCM - Least common multiple
+    lcm = (num1 * num2)/gcd;
+    printf("L.C.M of %d & %d is = %d\n", num1, num2, lcm);
+
 }
