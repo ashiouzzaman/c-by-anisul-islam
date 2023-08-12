@@ -16,9 +16,9 @@ int main(){
             fib = i;
         }
         else{
+            fib = first + second;
             first = second;
             second = fib;
-            fib = first + second;
         }
         printf("%d\t", fib);
     }
