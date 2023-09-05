@@ -15,12 +15,12 @@ int main(){
     // Pattern logic
     for(int row = 1; row <= n; row++){
         int space = n - row;
-        int count = n - space;
+        // int count = n - space;
         for(int i = 1; i <= space; i++){
             printf("  ");
         }
         for (int col = 1; col <= row; col++){
-            printf("%d ", col);
+            printf("* ");
         }
         // for (int i = 1; i <= count; i++){
         //     printf("%d ", i);
