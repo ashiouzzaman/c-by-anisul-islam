@@ -1,3 +1,10 @@
+// A B C D E F 
+// A B C D E F 
+// A B C D E F 
+// A B C D E F 
+// A B C D E F 
+// A B C D E F 
+
 #include<stdio.h>
 int main(){
     int n, row, col;
@@ -12,3 +19,4 @@ int main(){
         printf("\n");
     }
 }
+
